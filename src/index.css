@@ -24,4 +24,19 @@
         .firstblogcontent1{
             width: 100% !important;
         }
+        .secondblogcontent{
+            flex-direction: column;
+            gap: 10px;
+        }
+        .secondblogcontent1{
+            width: 100% !important;
+        }
+        .secondblogcontent2{
+            flex-direction: column !important;
+            gap: 40px;
+        }
+        .secondblogimg{
+           width: 100% !important;
+           height: 100% !important;
+        }
     }

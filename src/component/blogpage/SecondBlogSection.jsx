@@ -3,17 +3,18 @@ import { Box, Container, Typography } from "@mui/material";
 const SecondBlogSection = () => {
   return (
     <>
-      <Container maxWidth="xl" className="flex " sx={{ paddingBlock: "100px" }}>
-        <Box className="flex flex-col gap-9" sx={{ width: "70%" }}>
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+      <Container maxWidth="xl" className="flex secondblogcontent " sx={{ paddingBlock: "100px" }}>
+        <Box className="flex flex-col gap-9 secondblogcontent1" sx={{ width: "70%" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box className="secondblogimg" sx={{ width: "331px", height: "251px" }}>
               <img
                 src="src/assets/secondblogsection/cross-platform.webp"
                 alt=""
                 style={{ height: "250px" }}
+                className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>10 Sep 2024</Typography>
               <Typography
                 sx={{
@@ -89,15 +90,16 @@ const SecondBlogSection = () => {
           </Box>
           
 
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box className="secondblogimg" sx={{ width: "331px", height: "251px" }}>
               <img
                 src="src/assets/secondblogsection/python-devops.webp"
                 alt=""
                 style={{ height: "250px" }}
+                className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>27 Aug 2024</Typography>
               <Typography
                 sx={{
@@ -170,15 +172,16 @@ const SecondBlogSection = () => {
             </Box>
           </Box>
 
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box  className="secondblogimg" sx={{ width: "331px", height: "251px" }}>
               <img
                 src="src/assets/secondblogsection/devops-3155972_1280.webp"
                 alt=""
                 style={{ height: "215px" }}
+                 className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>10 Aug 2024</Typography>
               <Typography
                 sx={{
@@ -251,15 +254,16 @@ const SecondBlogSection = () => {
             </Box>
           </Box>
 
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box className="secondblogimg" sx={{ width: "331px", height: "251px" }}>
               <img
                 src="src/assets/secondblogsection/web-scraping.webp"
                 alt=""
                 style={{ height: "250px" }}
+                className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>31 Jul 2024</Typography>
               <Typography
                 sx={{
@@ -333,15 +337,16 @@ const SecondBlogSection = () => {
           </Box>
 
 
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box  className="secondblogimg" sx={{ width: "331px", height: "251px" }}>
               <img
                 src="src/assets/secondblogsection/ApplicationsofDeepLearninginVariousIndustries.webp"
                 alt=""
                 style={{ height: "272px" }}
+                className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>12 Jul 2024</Typography>
               <Typography
                 sx={{
@@ -413,15 +418,16 @@ const SecondBlogSection = () => {
 
 
 
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box className="secondblogimg" sx={{ width: "331px", height: "238px" }}>
               <img
                 src="src/assets/secondblogsection/artificial-intelligence_o1Wu1x6.webp"
                 alt=""
                 style={{ height: "238px" }}
+                className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>07 Jul 2024</Typography>
               <Typography
                 sx={{
@@ -493,15 +499,16 @@ const SecondBlogSection = () => {
 
 
 
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box  className="secondblogimg" sx={{ width: "331px", height: "272px" }}>
               <img
                 src="src/assets/secondblogsection/brand_identity.webp"
                 alt=""
                 style={{ height: "272px" }}
+                 className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>27 Jun 2024</Typography>
               <Typography
                 sx={{
@@ -574,15 +581,16 @@ const SecondBlogSection = () => {
 
 
 
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box className="secondblogimg" sx={{ width: "331px", height: "271px" }}>
               <img
                 src="src/assets/secondblogsection/page_load.webp"
                 alt=""
                 style={{ height: "275px" }}
+                className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>26 Jun 2024</Typography>
               <Typography
                 sx={{
@@ -654,15 +662,16 @@ const SecondBlogSection = () => {
 
 
 
-          <Box className="flex gap-5">
-            <Box sx={{ maxWidth: "331px", maxHeight: "241px" }}>
+          <Box className="flex gap-5 secondblogcontent2">
+            <Box className="secondblogimg"  sx={{ width: "331px", height: "251px" }}>
               <img
                 src="src/assets/secondblogsection/ui_ux.webp"
                 alt=""
                 style={{ height: "250px" }}
+                className="secondblogimg"
               />
             </Box>
-            <Box className="flex flex-col gap-4" sx={{ maxWidth: "473px" }}>
+            <Box className="flex flex-col gap-4 secondblogimg" sx={{ width: "473px" }}>
               <Typography>25 jun 2024</Typography>
               <Typography
                 sx={{
@@ -735,11 +744,11 @@ const SecondBlogSection = () => {
 
         </Box>
 
-        <Box sx={{width:'30%'}}>
+        <Box className="secondblogcontent1" sx={{width:'30%', }}>
         <Box
           sx={{
             border: "1px solid #e99f12",
-            padding: "30px",
+            padding: "20px",
             borderRadius: "10px",
           }}
         >
@@ -831,8 +840,78 @@ const SecondBlogSection = () => {
         </Box>
 
 
-        <Box>
+        <Box className="flex flex-col gap-4 mt-8" sx={{border:"1px solid #e99f12", padding:"20px", borderRadius:"10px"}}>
             <Typography sx={{fontSize:"24px", fontFamily:'sans-serif', color:"#000000",fontWeight:"800"}}>Popular Blogs</Typography>
+            <Box className="flex gap-3">
+                <Box sx={{width:"30%"}}>
+                    <img src="src/assets/secondblogsection/cross-platform.webp"  style={{height:"66px"}} alt="" />
+                </Box>
+                <Box  sx={{width:"70%"}}> 
+                    <Box className="flex justify-between mb-4">
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>10 Sep 2024</Typography>
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>3 min read</Typography>
+                    </Box>
+                    <Typography sx={{fontSize:"12px", color:"#323232", fontFamily:"sans-serif", fontWeight:"600"}}>Advantages of Cross-Platform Development: What You Need to Know</Typography>
+                </Box>
+            </Box>
+
+            <Box className="flex gap-3">
+                <Box sx={{width:"30%"}}>
+                    <img src="src/assets/secondblogsection/python-devops.webp"  style={{height:"66px"}} alt="" />
+                </Box>
+                <Box  sx={{width:"70%"}}> 
+                    <Box className="flex justify-between mb-4">
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>10 Sep 2024</Typography>
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>3 min read</Typography>
+                    </Box>
+                    <Typography sx={{fontSize:"12px", color:"#323232", fontFamily:"sans-serif", fontWeight:"600"}}>Advantages of Cross-Platform Development: What You Need to Know</Typography>
+                </Box>
+            </Box>
+
+
+            <Box className="flex gap-3">
+                <Box sx={{width:"30%"}}>
+                    <img src="src/assets/secondblogsection/devops-3155972_1280.webp"  style={{height:"66px"}} alt="" />
+                </Box>
+                <Box  sx={{width:"70%"}}> 
+                    <Box className="flex justify-between mb-4">
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>10 Sep 2024</Typography>
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>3 min read</Typography>
+                    </Box>
+                    <Typography sx={{fontSize:"12px", color:"#323232", fontFamily:"sans-serif", fontWeight:"600"}}>Top DevOps Best Practices for 2024</Typography>
+                </Box>
+            </Box>
+
+
+
+
+            <Box className="flex gap-3">
+                <Box sx={{width:"30%"}}>
+                    <img src="src/assets/secondblogsection/web-scraping.webp"  style={{height:"66px"}} alt="" />
+                </Box>
+                <Box  sx={{width:"70%"}}> 
+                    <Box className="flex justify-between mb-4">
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>10 Sep 2024</Typography>
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>3 min read</Typography>
+                    </Box>
+                    <Typography sx={{fontSize:"12px", color:"#323232", fontFamily:"sans-serif", fontWeight:"600"}}>Advantages of Cross-Platform Development: What You Need to Know</Typography>
+                </Box>
+            </Box>
+
+
+            <Box className="flex gap-3">
+                <Box sx={{width:"30%"}}>
+                    <img src="src/assets/secondblogsection/ApplicationsofDeepLearninginVariousIndustries.webp"  style={{height:"66px"}} alt="" />
+                </Box>
+                <Box  sx={{width:"70%"}}> 
+                    <Box className="flex justify-between mb-4">
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>10 Sep 2024</Typography>
+                        <Typography sx={{fontSize:"12px", color:"#212529"}}>3 min read</Typography>
+                    </Box>
+                    <Typography sx={{fontSize:"12px", color:"#323232", fontFamily:"sans-serif", fontWeight:"600"}}>Advantages of Cross-Platform Development: What You Need to Know</Typography>
+                </Box>
+            </Box>
+
         </Box>
 
         </Box>
