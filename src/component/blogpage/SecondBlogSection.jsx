@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 
 const SecondBlogSection = () => {
   return (
@@ -741,6 +741,12 @@ const SecondBlogSection = () => {
             </Box>
           </Box>
 
+
+        <Box>
+          <Button variant="outlined" sx={{marginRight:"10px"}}>Privious</Button>
+          <Button   sx={{background:"linear-gradient(to right, rgb(233, 159, 18), rgb(240, 79, 44))", color:"#ffffff", }}>1</Button>
+          <Button variant="outlined" sx={{marginLeft:"10px"}}>Next</Button>
+        </Box>
 
         </Box>
 

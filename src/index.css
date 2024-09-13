@@ -39,4 +39,26 @@
            width: 100% !important;
            height: 100% !important;
         }
+        .ourmissionsection{
+            display: block;
+        }
+        .ourmissioncontent{
+            width: 100% !important;
+            order: 2 !important;
+        }
+        .ourTypo3{
+            width: 100% !important;
+            order: 3 !important;
+        }
+        .ourTypo2{
+            width: 100% !important;
+            order: 1 !important;
+        }
+    }
+
+    .HeadingsAboutSectionColor {
+        background: linear-gradient(90deg, #e99f12, #f04f2c);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
     }
