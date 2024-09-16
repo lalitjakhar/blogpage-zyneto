@@ -1,9 +1,10 @@
-import FirstHomeSection from "./FirstHomeSection";
+import HeroSection from "./HeroSection";
+
 
 const HomePage=()=>{
     return(
         <>
-        <FirstHomeSection />
+        <HeroSection />
         </>
 
     )
