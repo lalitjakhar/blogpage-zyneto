@@ -1,3 +1,4 @@
+import AccordionSection from "./AccordionSection";
 import FirstAbout from "./FirstAbout";
 import OurMissionSection from "./OurMissionSection";
 import OurVisionSection from "./OurVisionSection";
@@ -8,6 +9,7 @@ const AboutUs=()=>{
         <FirstAbout />
         <OurMissionSection />
         <OurVisionSection />
+        <AccordionSection />
         </>
     )
 };
