@@ -53,7 +53,22 @@
         .ourTypo{
             width: 100% !important; 
         }
-        
+        .footercontent{
+            flex-direction: column;
+        }
+        .footercontentfirst{
+            width: 100% !important;
+
+        }
+        .footercontentsecond {
+            width: 100% !important;
+        }
+        .accordioncontent{
+            flex-direction: column !important;
+        }
+        .accordioncontent1{
+            width: 100% !important;
+        }
     }
 
     .HeadingsAboutSectionColor {
@@ -61,4 +76,10 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
+    }
+    .hovericon:hover{
+        background: linear-gradient(90deg, #e99f12, #f04f2c);
+    }
+    .hoverlink:hover{
+        color: #e99f12 !important;
     }

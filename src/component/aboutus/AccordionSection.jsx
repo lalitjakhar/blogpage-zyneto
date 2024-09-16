@@ -108,8 +108,8 @@ const AccordionSection = () => {
             Here are some basic questions and answers to help you get started.
           </Typography>
         </Box>
-        <Box className="flex">
-          <Box width={"50%"} sx={{ bgcolor: "transparent" }}>
+        <Box className="flex accordioncontent">
+          <Box className="accordioncontent1" width={"50%"} sx={{ bgcolor: "transparent" }}>
             {accroPost.map((post, index) => {
               return (
                 <Accordion
@@ -120,6 +120,7 @@ const AccordionSection = () => {
                     fontWeight: "900",
                     color: "#000000",
                     bgcolor: "transparent",
+                    
                   }}
                   onChange={handleChange(post.id)}
                   expanded={expanded === post.id}
@@ -160,7 +161,7 @@ const AccordionSection = () => {
               );
             })}
           </Box>
-          <Box width={"50%"} className="flex items-center">
+          <Box  width={"50%"} className="flex items-center accordioncontent1">
             <img
               src="src/assets/accordionsection/faqaboutus.webp"
               alt=""
