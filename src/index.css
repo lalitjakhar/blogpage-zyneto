@@ -46,14 +46,14 @@
             width: 100% !important;
             order: 2 !important;
         }
-        .ourTypo3{
-            width: 100% !important;
-            order: 3 !important;
-        }
-        .ourTypo2{
+        .ourmissioncontent1{
             width: 100% !important;
             order: 1 !important;
         }
+        .ourTypo{
+            width: 100% !important; 
+        }
+        
     }
 
     .HeadingsAboutSectionColor {

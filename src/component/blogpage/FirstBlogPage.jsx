@@ -1,5 +1,11 @@
-import { Box, Container, InputAdornment, TextField, Typography } from "@mui/material";
-import SearchIcon from '@mui/icons-material/Search';
+import {
+  Box,
+  Container,
+  InputAdornment,
+  TextField,
+  Typography,
+} from "@mui/material";
+import SearchIcon from "@mui/icons-material/Search";
 
 const FirstBlogPage = () => {
   return (
@@ -16,18 +22,26 @@ const FirstBlogPage = () => {
           />
         </Box>
         <Container maxWidth="xl" className="flex firstblogcontent">
-          <Box className="flex flex-col gap-9 firstblogcontent1" sx={{ width: "50%" }}>
+          <Box
+            className="flex flex-col gap-9 firstblogcontent1"
+            sx={{ width: "50%" }}
+          >
             <Box>
               <Typography
                 className=""
                 variant="h2"
                 sx={{
-                  fontSize:{xs:"20px",sm:"20px",md:"36px",lg:"36px",xl:"36px"},
+                  fontSize: {
+                    xs: "20px",
+                    sm: "20px",
+                    md: "36px",
+                    lg: "36px",
+                    xl: "36px",
+                  },
                   lineHeight: "44px",
                   fontWeight: "800",
                   color: "#ffffff",
                   fontFamily: "sans-serif",
-                
                 }}
               >
                 Your go-to destination for
@@ -36,12 +50,17 @@ const FirstBlogPage = () => {
                 variant="h2"
                 className="zyneto-global"
                 sx={{
-                  fontSize:{xs:"20px",sm:"20px",md:"36px",lg:"36px",xl:"36px"},
+                  fontSize: {
+                    xs: "20px",
+                    sm: "20px",
+                    md: "36px",
+                    lg: "36px",
+                    xl: "36px",
+                  },
                   lineHeight: "44px",
                   fontWeight: "800",
                   color: "#ffffff",
                   fontFamily: "sans-serif",
-                  
                 }}
               >
                 Insightful Blogs!
@@ -49,11 +68,17 @@ const FirstBlogPage = () => {
             </Box>
             <Typography
               sx={{
-                fontSize: {xs:"10px",sm:"10px",md:"20px",xl:"20px",lg:"20px"},
+                fontSize: {
+                  xs: "10px",
+                  sm: "10px",
+                  md: "20px",
+                  xl: "20px",
+                  lg: "20px",
+                },
                 lineHeight: "30px",
                 fontWeight: "500",
                 color: "#bababa",
-                width:"516px"
+                width: "516px",
               }}
               className="firstblogcontent1"
             >
@@ -75,33 +100,41 @@ const FirstBlogPage = () => {
           </Box>
         </Container>
       </Box>
-      <Container maxWidth="xl" sx={{paddingBlock:"50px" }}>
-      <Box sx={{width:{sm:"100%",xs:"100%",md:"823px",lg:"823px",xl:"823px"}}}>
-      <TextField
+      <Container maxWidth="xl" sx={{ paddingBlock: "50px" }}>
+        <Box
+          sx={{
+            width: {
+              sm: "100%",
+              xs: "100%",
+              md: "823px",
+              lg: "823px",
+              xl: "823px",
+            },
+          }}
+        >
+          <TextField
             variant="outlined"
             placeholder="Search By Blog"
             fullWidth
             InputProps={{
-                startAdornment: (
-                    <InputAdornment position="start">
-                        <SearchIcon />
-                    </InputAdornment>
-                ),
+              startAdornment: (
+                <InputAdornment position="start">
+                  <SearchIcon />
+                </InputAdornment>
+              ),
             }}
             sx={{
-                '& .MuiOutlinedInput-root': {
-                    borderRadius: '8px',
-                },
-                '& .MuiOutlinedInput-input': {
-                    fontFamily: 'sans-serif',
-                    backgroundColor: '#f7f7f7',
-                },
+              "& .MuiOutlinedInput-root": {
+                borderRadius: "8px",
+              },
+              "& .MuiOutlinedInput-input": {
+                fontFamily: "sans-serif",
+                backgroundColor: "#f7f7f7",
+              },
             }}
-        />
-
-        </Box>     
-        
-         </Container>
+          />
+        </Box>
+      </Container>
     </>
   );
 };
